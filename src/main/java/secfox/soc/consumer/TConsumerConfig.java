@@ -113,7 +113,7 @@ public class TConsumerConfig
 	public String getBrokerAddr(){
 		if(prop!=null)
 			return prop.getProperty(KEY_BROKER_ADDR);
-		return "10.95.32.23:9092";
+		return "127.0.0.1:9092";
 	}
 	public String getTopic(){
 		if(prop!=null)
@@ -123,7 +123,7 @@ public class TConsumerConfig
 	public String getZookeeperAddr(){
 		if(prop!=null)
 			return prop.getProperty(KEY_ZK_ADDR);
-		return "10.95.32.23:2181/kafka";
+		return "127.0.0.1:2181/kafka";
 	}
 	public String getVSerialClass(){
 		if(prop!=null)
