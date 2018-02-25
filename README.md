@@ -6,4 +6,5 @@ kafka消息队列消费者
 消费者轮询kafka消息队列拉取数据，将数据封装为任务提交给worker线程池，多个线程并发写es。
 
 编译部署启动：
+
 采用maven编译发布，mvn install后kafka-consumer-bin.zip，将zip解压到指定部署路径，执行startup.sh脚本启动。
